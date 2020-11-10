@@ -8,9 +8,8 @@ export default function Navbar() {
                 <Heading>Hello</Heading>
                 <Flex justify="space-between">
                     <Link as={ReachLink} to="/" mr="6"><Box as="strong">work</Box></Link>
-                    <Link as={ReachLink} to="/" mr="6"><Box as="strong">about</Box></Link>
                     <Link as={ReachLink} to="/" mr="6"><Box as="strong">article</Box></Link>
-                    <Link as={ReachLink} to="/"><Box as="strong">contact</Box></Link>
+                    <Link href="mailto:praveenkr.564@gmail.com"><Box as="strong">contact</Box></Link>
                 </Flex>
             </Flex>
         </Box>

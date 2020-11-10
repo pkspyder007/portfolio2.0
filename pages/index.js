@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import HeroSection from '../sections/Hero'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import HeroSection from "../sections/Hero";
+import Projects from "../sections/Projects";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -9,9 +10,8 @@ export default function Home() {
         <title>Praveen Kumar</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <HeroSection />
-
-      
+      <HeroSection />
+      <Projects />
     </div>
-  )
+  );
 }

@@ -3,6 +3,7 @@ import { ChakraProvider } from "@chakra-ui/core";
 
 import '../styles/globals.css'
 import Navbar from "../components/Navbar";
+import Footer from "../sections/Footer";
 
 // const colors = {
 //   brand: {
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps }) {
     <ChakraProvider>
       <Navbar />
        <Component {...pageProps} />
+       <Footer />
     </ChakraProvider>
   )
 }

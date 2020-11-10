@@ -39,8 +39,8 @@ export default function HeroSection() {
       align="center"
       wrap="wrap"
       maxWidth="1200px"
+      minHeight="95vh"
       m="auto"
-      mt={["10", "20", "120px", "150px"]}
     >
       <Box p="4" mt={["4", "8"]}>
         <Heading
@@ -79,7 +79,6 @@ export default function HeroSection() {
           px="10"
           py="8"
           rounded="0"
-          mb={["7", "7", "10", "10"]}
         >
           View My Work
         </Button>

@@ -1,12 +1,12 @@
 import { Box, Badge, Link, Heading, Button,} from "@chakra-ui/core"
 import { AiFillGithub } from "react-icons/ai";
 import Image from "next/image"; 
-export default function Project({caseStudy, imageUrl, imageAlt,cat, title, github, liveUrl}) {
+export default function Project({caseStudy, imgUrl, imageAlt,cat, title, github, liveUrl}) {
     
   
     return (
       <Box maxW="sm" borderWidth="1px" borderColor="grey" overflow="hidden" mb="3">
-        <Image src={imageUrl} alt={imageAlt} height="sm" width="sm"  />
+        <Image src={imgUrl} alt={imageAlt} height="sm" width="sm"  />
   
         <Box p="6" borderTop="2px">
         <Heading

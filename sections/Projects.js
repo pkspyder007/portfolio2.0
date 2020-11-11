@@ -18,7 +18,7 @@ export default function ProjectsSection() {
             <Project
               title="LiqrCart"
               cat="E-Commerce"
-              imageUrl="/images/lq1.png"
+              imgUrl="/images/lq1.PNG"
               imageAlt="LiqrCart"
               github={null}
               liveUrl={null}
@@ -31,7 +31,7 @@ export default function ProjectsSection() {
             <Project
               title="IIITU-Admission"
               cat="Education Management"
-              imageUrl="/images/ia1.png"
+              imgUrl="/images/ia1.PNG"
               imageAlt="IIITU-admission"
               github={null}
               liveUrl={null}
@@ -44,7 +44,7 @@ export default function ProjectsSection() {
              <Project
               title="GitBlack"
               cat="E-Education"
-              imageUrl="/images/gb1.png"
+              imgUrl="/images/gb1.PNG"
               imageAlt="LiqrCart"
               github={null}
               liveUrl={null}

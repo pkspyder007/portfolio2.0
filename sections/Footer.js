@@ -10,13 +10,13 @@ import {
 export default function Footer() {
   return (
     <Box mt="5" mb="5">
-      <Flex justify="space-around" align="center">
-        <Text fontSize="xl" color="grey.500">
+      <Flex justify="space-around" align="center" wrap="wrap">
+        <Text fontSize="xl" color="grey.500" mb="5">
           by Praveen Kumar 🎈
         </Text>
         <Box>
           <Flex>
-            <Box mr="2">
+            <Box mr="2" mb="5">
               <Link href="https://github.com/pkspyder007">
                 <AiFillGithub size="36" />
               </Link>
@@ -41,7 +41,7 @@ export default function Footer() {
             </Link>
           </Flex>
         </Box>
-        <Link href="mailto:praveenkr.564@gmail.com">
+        <Link href="mailto:praveenkr.564@gmail.com" mb="5">
           <Text fontWeight="bold">praveenkr.564@gmail.com</Text>
         </Link>
       </Flex>

@@ -5,27 +5,51 @@ import Project from "../components/Project";
 
 export default function ProjectsSection() {
   return (
-    <Box maxW="1200px" m="auto" mb="10">
+    <Box as="section" id="work" maxW="1200px" minH="720px" m="auto" mb="10">
       <Center>
-        <Heading size="2xl">
+        <Heading size="4xl">
           <u>My Work</u>
         </Heading>
       </Center>
-      <Flex justify="space-around" mt="10" wrap="wrap">
+      <Flex justify="space-around" align="center" mr="auto" mt="10" wrap="wrap">
         <Box as={motion.div}
             whileHover={{y: -10, transition: { duration: 0.3}}}
         >
-            <Project />
+            <Project
+              title="LiqrCart"
+              cat="E-Commerce"
+              imageUrl="/images/lq1.png"
+              imageAlt="LiqrCart"
+              github={null}
+              liveUrl={null}
+              caseStudy="/work/liqrcart"
+            />
         </Box>
         <Box as={motion.div}
              whileHover={{y: -10, transition: { duration: 0.3}}}
         >
-            <Project />
+            <Project
+              title="IIITU-Admission"
+              cat="Education Management"
+              imageUrl="/images/ia1.png"
+              imageAlt="IIITU-admission"
+              github={null}
+              liveUrl={null}
+              caseStudy="http://117.252.73.57"
+            />
         </Box>
         <Box as={motion.div}
             whileHover={{y: -10, transition: { duration: 0.3}}}
         >
-            <Project />
+             <Project
+              title="GitBlack"
+              cat="E-Education"
+              imageUrl="/images/gb1.png"
+              imageAlt="LiqrCart"
+              github={null}
+              liveUrl={null}
+              caseStudy="https://gitblack.com"
+            />
         </Box>    
       </Flex>
     </Box>

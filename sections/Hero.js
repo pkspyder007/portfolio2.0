@@ -39,11 +39,12 @@ export default function HeroSection() {
       align="center"
       wrap="wrap"
       maxWidth="1200px"
-      minHeight="95vh"
+      minHeight="100vh"
       m="auto"
     >
-      <Box p="4" mt={["4", "8"]}>
+      <Box p="4" mt={["-20", "4", "4", "8"]} >
         <Heading
+        fontFamily="Play"
           as={motion.h1}
           variants={h1Variants}
           initial="hidden"
@@ -55,6 +56,7 @@ export default function HeroSection() {
           <u>Namaste!</u>
         </Heading>
         <Heading
+        fontFamily="Play"
           as={motion.h1}
           variants={{ ...h1Variants, hidden: { opacity: 0.5, x: -80 } }}
           initial="hidden"
@@ -65,7 +67,7 @@ export default function HeroSection() {
         >
           I'm Praveen
         </Heading>
-        <Heading as="h1" size="xl" mb={["1", "2", "3", "3"]}>
+        <Heading fontFamily="Play" as="h1" size="xl" mb={["1", "2", "3", "3"]}>
           A full stack web developer &
         </Heading>
         <Heading as="h1" size="xl"  mb={["3" , "3", "5", "5"]}>
@@ -79,11 +81,12 @@ export default function HeroSection() {
           px="10"
           py="8"
           rounded="0"
+         
         >
           View My Work
         </Button>
       </Box>
-      <Box width={["150px", "250px", "300px", "400px"]}>
+      <Box width={["150px", "250px", "300px", "400px"]}  mt={["-180px", "0", "0", "0"]}>
         <motion.svg
           width="100%"
           height="100%"

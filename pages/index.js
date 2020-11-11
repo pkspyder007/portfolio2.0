@@ -1,4 +1,5 @@
 import Head from "next/head";
+import ArticlesSection from "../sections/Articles";
 import HeroSection from "../sections/Hero";
 import Projects from "../sections/Projects";
 import styles from "../styles/Home.module.css";
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <HeroSection />
       <Projects />
+      <ArticlesSection />
     </div>
   );
 }

@@ -1,48 +1,47 @@
-import { Box, Badge, Image,} from "@chakra-ui/core"
+import { Box, Badge, Image, Link, Heading, Button,} from "@chakra-ui/core"
+import { AiFillGithub } from "react-icons/ai";
 
-export default function Project() {
-    const property = {
-      imageUrl: "https://bit.ly/2Z4KKcF",
-      imageAlt: "Rear view of modern home with pool",
-      beds: 3,
-      baths: 2,
-      title: "Modern home in city center in the heart of historic Los Angeles",
-      formattedPrice: "$1,900.00",
-      reviewCount: 34,
-      rating: 4,
-    }
+export default function Project({caseStudy, imageUrl, imageAlt,cat, title, github, liveUrl}) {
+    
   
     return (
       <Box maxW="sm" borderWidth="1px" borderColor="grey" overflow="hidden" mb="3">
-        <Image src={property.imageUrl} alt={property.imageAlt} />
+        <Image src={imageUrl} alt={imageAlt}  />
   
-        <Box p="6">
-          <Box d="flex" alignItems="baseline">
-            <Badge borderRadius="full" px="2" colorScheme="teal">
-              New
-            </Badge>
-            <Box
-              color="gray.500"
-              fontWeight="semibold"
-              letterSpacing="wide"
-              fontSize="xs"
-              textTransform="uppercase"
-              ml="2"
-            >
-              {property.beds} beds &bull; {property.baths} baths
-            </Box>
-          </Box>
-  
-          <Box
+        <Box p="6" borderTop="2px">
+        <Heading
             mt="1"
             fontWeight="semibold"
-            as="h4"
+            as="h2"
             lineHeight="tight"
             isTruncated
           >
-            {property.title}
+            {title}
+          </Heading>
+          <Box my="2" d="flex" alignItems="baseline">
+            <Badge borderRadius="full" px="2" colorScheme="teal">
+              {cat}
+            </Badge>
           </Box>
-  
+           {github && (
+              <Box
+              mx="2"
+              color="gray.500"
+            >
+              <Link href={github} target="__blank"><AiFillGithub size="24" /></Link>
+            </Box>
+           )}
+           {caseStudy && (
+              <Box
+              color="gray.500"
+            >
+              <Link href={caseStudy} target="__blank">
+                <Button size="sm">
+                  View Project
+                </Button>
+              </Link>
+            </Box>
+           )}
         </Box>
       </Box>
     )

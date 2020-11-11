@@ -33,7 +33,7 @@ export default function Liqrcart() {
           </Text>
         </Box>
         <Box mb="5">
-          <Image src="/images/lq1.png" />
+          <Image src="/images/lq1.PNG" />
         </Box>
       </Flex>
       {/* tech */}

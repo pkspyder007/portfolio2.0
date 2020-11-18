@@ -140,7 +140,7 @@ export default function Liqrcart() {
         </Box>
         <Box mb="2">
           <Badge my="2" p="2">
-            Briding end with an API
+            Bridging end with an API
           </Badge>
           <Divider />
           <Image src="/images/lq5.PNG" alt="liqrcart-db-design" />

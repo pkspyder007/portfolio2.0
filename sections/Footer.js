@@ -22,7 +22,7 @@ export default function Footer() {
               </Link>
             </Box>
             <Box mr="2">
-              <Link href="#linkedIN">
+              <Link href="https://www.linkedin.com/in/praveen-kumar-8512b4189/">
                 <AiFillLinkedin size="36" />
               </Link>
             </Box>

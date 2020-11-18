@@ -1,5 +1,6 @@
 import { Box, Heading, Flex, Button } from "@chakra-ui/core";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const pathVariants = {
   hidden: {
@@ -73,6 +74,7 @@ export default function HeroSection() {
         <Heading as="h1" size="xl"  mb={["3" , "3", "5", "5"]}>
           CS grad student
         </Heading>
+        <Link to="#work" href="#work">
         <Button
           size="lg"
           bg="black"
@@ -85,6 +87,7 @@ export default function HeroSection() {
         >
           View My Work
         </Button>
+        </Link>
       </Box>
       <Box width={["150px", "250px", "300px", "400px"]}  mt={["-180px", "0", "0", "0"]}>
         <motion.svg

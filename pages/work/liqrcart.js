@@ -108,7 +108,7 @@ export default function Liqrcart() {
             Breaking down the design
           </Badge>
           <Divider />
-          <Image src="/images/lq3.png" alt="liqrcart-design" />
+          <Image src="/images/lq3.PNG" alt="liqrcart-design" />
           <Text fontSize="lg" lineHeight="30px" mt="5">
             95% of our audience was mobile users as they lack high speed internet connectivity.
             So keeping the UI as close as a native app was the best option and this allowed me to <u><strong>re-use</strong></u>
@@ -127,7 +127,7 @@ export default function Liqrcart() {
             Database modelling
           </Badge>
           <Divider />
-          <Image src="/images/lq4.png" alt="liqrcart-db-design" />
+          <Image src="/images/lq4.PNG" alt="liqrcart-db-design" />
           <Text fontSize="lg" lineHeight="30px">
             I took my whiteboard and tried to come up with some main entities the app we will be having. Laid them on the whiteboard and created some relationship with each other. 
             <br />
@@ -143,7 +143,7 @@ export default function Liqrcart() {
             Briding end with an API
           </Badge>
           <Divider />
-          <Image src="/images/lq5.png" alt="liqrcart-db-design" />
+          <Image src="/images/lq5.PNG" alt="liqrcart-db-design" />
           <Text fontSize="lg" lineHeight="30px">
             So we have out frontend components and database models now comes my favourite part working on combining both of them through a rest api.
             <br />

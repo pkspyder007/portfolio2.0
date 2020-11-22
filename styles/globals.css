@@ -18,3 +18,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.footer_icon:hover {
+  color: #6666ff;
+}

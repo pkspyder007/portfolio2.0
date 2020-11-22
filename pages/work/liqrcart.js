@@ -108,7 +108,7 @@ export default function Liqrcart() {
             Breaking down the design
           </Badge>
           <Divider />
-          <Image src="/images/lq3.PNG" alt="liqrcart-design" />
+          {/* <Images src="/images/lq3.PNG" alt="liqrcart-design" /> */}
           <Text fontSize="lg" lineHeight="30px" mt="5">
             95% of our audience was mobile users as they lack high speed internet connectivity.
             So keeping the UI as close as a native app was the best option and this allowed me to <u><strong>re-use</strong></u>

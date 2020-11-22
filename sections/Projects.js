@@ -34,8 +34,8 @@ export default function ProjectsSection() {
               imgUrl="/images/ia1.PNG"
               imageAlt="IIITU-admission"
               github={null}
-              liveUrl={null}
-              caseStudy="http://117.252.73.57"
+              liveUrl="http://117.252.73.57"
+              caseStudy="/work/iiituna-admissions"
             />
         </Box>
         <Box as={motion.div}

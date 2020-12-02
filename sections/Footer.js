@@ -14,16 +14,20 @@ export default function Footer() {
     <Box mt="5" mb="5" id="footer">
       <Flex justify="space-around" align="center" wrap="wrap">
         <Flex>
-        <Text fontSize="xl" color="grey.500" mb="5">
-          by Praveen Kumar
-        </Text>
-        <BouncingBall>🎈</BouncingBall>
+          <Text fontSize="xl" color="grey.500" mb="5">
+            by Praveen Kumar
+          </Text>
+          <BouncingBall>
+            <Text fontSize="xl" color="grey.500" mb="5">
+              🎈
+            </Text>
+          </BouncingBall>
         </Flex>
         <Box>
           <Flex>
             <Box mr="2" mb="5">
-              <Link href="https://github.com/pkspyder007" >
-                <AiFillGithub size="36" className="footer_icon"/>
+              <Link href="https://github.com/pkspyder007">
+                <AiFillGithub size="36" className="footer_icon" />
               </Link>
             </Box>
             <Box mr="2">

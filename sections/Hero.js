@@ -50,7 +50,7 @@ export default function HeroSection() {
           variants={h1Variants}
           initial="hidden"
           animate="visible"
-          size={"4xl"}
+          size={"xl"}
           mb="4"
           letterSpacing="4px"
           >
@@ -83,7 +83,7 @@ export default function HeroSection() {
           px="10"
           py="8"
           rounded="0"
-         
+          _hover={{color: "black", bg: "lightgrey"}}
         >
           View My Work
         </Button>

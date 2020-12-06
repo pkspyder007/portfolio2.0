@@ -12,7 +12,7 @@ export default function ArticlesSection() {
         </Heading>
       </Center>
       <Flex justify="space-around" align="center" mt="10" wrap="wrap" p="5">
-        <ArticleBox imgUrl="/images/unboxjs.png" link="" moreText="ReadMore" desc=" We all have that model in our mind that a variable is a box containing some value..." />
+        <ArticleBox imgUrl="/images/unboxjs.png" link="https://medium.com/@praveenkr.564/unboxing-javascript-c6a089255fdf" moreText="ReadMore" desc=" We all have that model in our mind that a variable is a box containing some value..." />
         <ArticleBox imgUrl="/images/v1.jpg" link="https://www.youtube.com/watch?v=Jt8WDWbmr-0" moreText="Watch Now" desc="We will create a hook that will give us the posting of cursor on the browser window. " />
         <ArticleBox imgUrl="/images/v2.jpg" link="https://www.youtube.com/watch?v=U73doNKmswg" moreText="Watch Now" desc="We will create a hook that will save the state of our component into the localStorage of browser." />
       </Flex>

@@ -109,7 +109,7 @@ const IIITU = () => {
             Database modelling
           </Badge>
           <Divider />
-          <Text><strong>This was really tough and intresting. 🤒</strong></Text>
+          <Text><strong>This was really tough and interesting. 🤒</strong></Text>
           <Text fontSize="lg" lineHeight="30px">
             There was a ton of data to be managed keeping <strong><u>low data redundancy</u></strong>
             there were approx. 15 different forms to be submiited and uploaded. The tricky part waas some of them were mandatory and others not. On top of that few forms were applicable for certain students.

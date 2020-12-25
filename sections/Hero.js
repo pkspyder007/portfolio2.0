@@ -43,9 +43,9 @@ export default function HeroSection() {
       minHeight="100vh"
       m="auto"
     >
-      <Box p="4" mt={["-20", "4", "4", "8"]} >
+      <Box p="4" mt={["-20", "4", "4", "8"]}>
         <Heading
-        fontFamily="Play"
+          fontFamily="Play"
           as={motion.h1}
           variants={h1Variants}
           initial="hidden"
@@ -53,11 +53,11 @@ export default function HeroSection() {
           size={"xl"}
           mb="4"
           letterSpacing="4px"
-          >
+        >
           <u>Namaste!</u>
         </Heading>
         <Heading
-        fontFamily="Play"
+          fontFamily="Play"
           as={motion.h1}
           variants={{ ...h1Variants, hidden: { opacity: 0.5, x: -80 } }}
           initial="hidden"
@@ -71,25 +71,28 @@ export default function HeroSection() {
         <Heading fontFamily="Play" as="h1" size="xl" mb={["1", "2", "3", "3"]}>
           A full stack web developer &
         </Heading>
-        <Heading as="h1" size="xl"  mb={["3" , "3", "5", "5"]}>
+        <Heading as="h1" size="xl" mb={["3", "3", "5", "5"]}>
           CS grad student
         </Heading>
         <Link to="#work" href="#work">
-        <Button
-          size="lg"
-          bg="black"
-          color="white"
-          colorScheme="black"
-          px="10"
-          py="8"
-          rounded="0"
-          _hover={{color: "black", bg: "lightgrey"}}
-        >
-          View My Work
-        </Button>
+          <Button
+            size="lg"
+            bg="black"
+            color="white"
+            colorScheme="black"
+            px="10"
+            py="8"
+            rounded="0"
+            _hover={{ color: "black", bg: "lightgrey" }}
+          >
+            View My Work
+          </Button>
         </Link>
       </Box>
-      <Box width={["150px", "250px", "300px", "400px"]}  mt={["-180px", "0", "0", "0"]}>
+      <Box
+        width={["150px", "250px", "300px", "400px"]}
+        mt={["-180px", "0", "0", "0"]}
+      >
         <motion.svg
           width="100%"
           height="100%"

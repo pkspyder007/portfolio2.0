@@ -7,7 +7,7 @@ export default function Navbar() {
     <Box as="nav" mt="4" minH="5vh">
       <Flex justify="space-around" align="center">
         <ReachLink href="/">
-          <Heading>Hello 👋 </Heading>
+          <Heading >Hello <span className="shake">👋</span> </Heading>
         </ReachLink>
         <Flex justify="space-between" >
           <Box as="strong" mr="6">

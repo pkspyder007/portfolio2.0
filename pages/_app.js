@@ -3,6 +3,7 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/core";
 
 import '../styles/globals.css'
 import Navbar from "../components/Navbar";
+import Cursor from "../components/Cursor";
 import Footer from "../sections/Footer";
 import { RainbowWaves } from "../components/Waves";
 
@@ -23,6 +24,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <RainbowWaves />
+      <Cursor />
     <ChakraProvider theme={theme}>
       <Navbar />
        <Component {...pageProps} />

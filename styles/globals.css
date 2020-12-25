@@ -22,3 +22,60 @@ a {
 .footer_icon:hover {
   color: #6666ff;
 }
+
+.shake {
+  animation-name: shake-animation; 
+  animation-duration: 2.5s;       
+  animation-iteration-count: infinite; 
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes shake-animation {
+  0% { transform: rotate( 0.0deg) }
+ 10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+ 20% { transform: rotate(-8.0deg) }
+ 30% { transform: rotate(14.0deg) }
+ 40% { transform: rotate(-4.0deg) }
+ 50% { transform: rotate(10.0deg) }
+ 60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+100% { transform: rotate( 0.0deg) }
+}
+
+
+/* custom cursor */
+.cursor {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #646363;
+  border-radius: 100%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 150ms ease;
+  transition-property: background-color, opacity, transform, mix-blend-mode;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+.cursor--hidden {
+  opacity: 0;
+}
+
+.cursor--link-hovered {
+  transform: translate(-50%, -50%) scale(1.25);
+  background-color: #b4a7a7;
+}
+
+.cursor--clicked {
+  transform: translate(-50%, -50%) scale(0.9);
+  background-color: #f0bc4d;
+}
+
+html *,
+body * {
+    cursor: none;
+}
+
+::-moz-selection,
+::selection { background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3); }

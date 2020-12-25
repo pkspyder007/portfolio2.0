@@ -72,7 +72,7 @@ export default function HeroSection() {
           A full stack web developer &
         </Heading>
         <Heading as="h1" size="xl" mb={["3", "3", "5", "5"]}>
-          CS grad student
+          CS - Student
         </Heading>
         <Link to="#work" href="#work">
           <Button

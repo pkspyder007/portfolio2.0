@@ -12,7 +12,7 @@ import Waves, { RainbowWaves } from "../components/Waves";
 
 export default function Footer() {
   return (
-    <Box mt="5" mb="5" id="footer">
+    <Box as="footer" mt="5" id="footer">
       <Flex justify="space-around" align="center" wrap="wrap">
         <Flex>
           <Text fontSize="xl" color="grey.500" mb="5">

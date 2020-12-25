@@ -8,6 +8,7 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 import BouncingBall from "../components/BouncingBall";
+import Waves, { RainbowWaves } from "../components/Waves";
 
 export default function Footer() {
   return (

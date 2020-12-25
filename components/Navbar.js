@@ -3,6 +3,7 @@ import ReachLink from "next/link";
 
 export default function Navbar() {
   return (
+    <>
     <Box as="nav" mt="4" minH="5vh">
       <Flex justify="space-around" align="center">
         <ReachLink href="/">
@@ -27,5 +28,6 @@ export default function Navbar() {
         </Flex>
       </Flex>
     </Box>
+</>
   );
 }
